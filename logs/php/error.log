@@ -1,0 +1,118 @@
+[05-Apr-2020 10:45:07 UTC] PHP Parse error:  syntax error, unexpected '"><div class="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/front-page.php on line 40
+[11-Apr-2020 06:18:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/page-skils.php on line 32
+[12-Apr-2020 05:53:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/home.php on line 49
+[12-Apr-2020 07:30:57 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/home.php on line 44
+[13-Apr-2020 11:41:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function haev_posts() in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/single-website-pasta.php:7
+Stack trace:
+#0 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/karin2/Local Sites/portforio/app/public/wp-blog-header.php(19): require_once('/Users/karin2/L...')
+#2 /Users/karin2/Local Sites/portforio/app/public/index.php(17): require('/Users/karin2/L...')
+#3 {main}
+  thrown in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/single-website-pasta.php on line 7
+[13-Apr-2020 12:51:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_parts() in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/footer.php:39
+Stack trace:
+#0 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php(723): require_once()
+#1 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php(672): load_template('/Users/karin2/L...', true)
+#2 /Users/karin2/Local Sites/portforio/app/public/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/front-page.php(119): get_footer()
+#4 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template-loader.php(106): include('/Users/karin2/L...')
+#5 /Users/karin2/Local Sites/portforio/app/public/wp-blog-header.php(19): require_once('/Users/karin2/L...')
+#6 /Users/karin2/Local Sites/portforio/app/public/index.php(17): require('/Users/karin2/L...')
+#7 {main}
+  thrown in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/footer.php on line 39
+[15-Apr-2020 12:57:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/home.php on line 49
+[15-Apr-2020 12:59:42 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/home.php on line 36
+[16-Apr-2020 23:39:35 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/karin2/Local Sites/portforio/app/public/wp-includes/formatting.php:1116
+Stack trace:
+#0 /Users/karin2/Local Sites/portforio/app/public/wp-includes/formatting.php(4482): wp_check_invalid_utf8('')
+#1 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php(719): esc_attr('')
+#2 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php(672): load_template('/Users/karin2/L...', true)
+#3 /Users/karin2/Local Sites/portforio/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#4 /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/single.php(1): get_header()
+#5 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php(725): require('/Users/karin2/L...')
+#6 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php(672): load_template('/Users/karin2/L...', false)
+#7 /Users/karin2/Local Sites/portforio/app/public/wp-includes/general in /Users/karin2/Local Sites/portforio/app/public/wp-includes/formatting.php on line 1116
+[16-Apr-2020 23:41:20 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/karin2/Local Sites/portforio/app/public/wp-includes/formatting.php:1116
+Stack trace:
+#0 /Users/karin2/Local Sites/portforio/app/public/wp-includes/formatting.php(4482): wp_check_invalid_utf8('')
+#1 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php(719): esc_attr('')
+#2 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php(672): load_template('/Users/karin2/L...', true)
+#3 /Users/karin2/Local Sites/portforio/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#4 /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/single.php(1): get_header()
+#5 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php(725): require('/Users/karin2/L...')
+#6 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php(672): load_template('/Users/karin2/L...', false)
+#7 /Users/karin2/Local Sites/portforio/app/public/wp-includes/general in /Users/karin2/Local Sites/portforio/app/public/wp-includes/formatting.php on line 1116
+[17-Apr-2020 16:32:57 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/karin2/Local Sites/portforio/app/public/wp-includes/update.php on line 162
+[17-Apr-2020 16:32:57 UTC] PHP Stack trace:
+[17-Apr-2020 16:32:57 UTC] PHP   1. {main}() /Users/karin2/Local Sites/portforio/app/public/wp-cron.php:0
+[17-Apr-2020 16:32:57 UTC] PHP   2. do_action_ref_array() /Users/karin2/Local Sites/portforio/app/public/wp-cron.php:138
+[17-Apr-2020 16:32:57 UTC] PHP   3. WP_Hook->do_action() /Users/karin2/Local Sites/portforio/app/public/wp-includes/plugin.php:544
+[17-Apr-2020 16:32:57 UTC] PHP   4. WP_Hook->apply_filters() /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-hook.php:311
+[17-Apr-2020 16:32:57 UTC] PHP   5. wp_version_check() /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-hook.php:287
+[17-Apr-2020 16:32:57 UTC] PHP   6. trigger_error() /Users/karin2/Local Sites/portforio/app/public/wp-includes/update.php:162
+[18-Apr-2020 11:04:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/front-page.php on line 139
+[19-Apr-2020 08:17:17 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/single-website-pasta.php on line 38
+[19-Apr-2020 08:18:59 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/single-website-pasta.php on line 38
+[22-Apr-2020 15:55:40 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/karin2/Local Sites/portforio/app/public/wp-includes/update.php on line 162
+[22-Apr-2020 15:55:40 UTC] PHP Stack trace:
+[22-Apr-2020 15:55:40 UTC] PHP   1. {main}() /Users/karin2/Local Sites/portforio/app/public/wp-cron.php:0
+[22-Apr-2020 15:55:40 UTC] PHP   2. do_action_ref_array() /Users/karin2/Local Sites/portforio/app/public/wp-cron.php:138
+[22-Apr-2020 15:55:40 UTC] PHP   3. WP_Hook->do_action() /Users/karin2/Local Sites/portforio/app/public/wp-includes/plugin.php:544
+[22-Apr-2020 15:55:40 UTC] PHP   4. WP_Hook->apply_filters() /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-hook.php:311
+[22-Apr-2020 15:55:40 UTC] PHP   5. wp_version_check() /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-hook.php:287
+[22-Apr-2020 15:55:40 UTC] PHP   6. trigger_error() /Users/karin2/Local Sites/portforio/app/public/wp-includes/update.php:162
+[02-May-2020 06:09:50 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php on line 659
+[02-May-2020 06:09:50 UTC] PHP Stack trace:
+[02-May-2020 06:09:50 UTC] PHP   1. {main}() /Users/karin2/Local Sites/portforio/app/public/index.php:0
+[02-May-2020 06:09:50 UTC] PHP   2. require() /Users/karin2/Local Sites/portforio/app/public/index.php:17
+[02-May-2020 06:09:50 UTC] PHP   3. require_once() /Users/karin2/Local Sites/portforio/app/public/wp-blog-header.php:19
+[02-May-2020 06:09:50 UTC] PHP   4. include() /Users/karin2/Local Sites/portforio/app/public/wp-includes/template-loader.php:106
+[02-May-2020 06:09:50 UTC] PHP   5. get_template_part() /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/single.php:23
+[02-May-2020 06:09:50 UTC] PHP   6. locate_template() /Users/karin2/Local Sites/portforio/app/public/wp-includes/general-template.php:168
+[03-May-2020 05:50:32 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/functions.php on line 296
+[03-May-2020 11:18:09 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-query.php on line 777
+[03-May-2020 11:18:09 UTC] PHP Stack trace:
+[03-May-2020 11:18:09 UTC] PHP   1. {main}() /Users/karin2/Local Sites/portforio/app/public/index.php:0
+[03-May-2020 11:18:09 UTC] PHP   2. require() /Users/karin2/Local Sites/portforio/app/public/index.php:17
+[03-May-2020 11:18:09 UTC] PHP   3. require_once() /Users/karin2/Local Sites/portforio/app/public/wp-blog-header.php:19
+[03-May-2020 11:18:09 UTC] PHP   4. include() /Users/karin2/Local Sites/portforio/app/public/wp-includes/template-loader.php:106
+[03-May-2020 11:18:09 UTC] PHP   5. WP_Query->__construct() /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/home.php:26
+[03-May-2020 11:18:09 UTC] PHP   6. WP_Query->query() /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-query.php:3541
+[03-May-2020 11:18:09 UTC] PHP   7. WP_Query->get_posts() /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-query.php:3432
+[03-May-2020 11:18:09 UTC] PHP   8. WP_Query->parse_query() /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-query.php:1755
+[03-May-2020 11:18:09 UTC] PHP   9. trim() /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-query.php:777
+[05-May-2020 22:18:56 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/karin2/Local Sites/portforio/app/public/wp-includes/update.php on line 578
+[05-May-2020 22:18:56 UTC] PHP Stack trace:
+[05-May-2020 22:18:56 UTC] PHP   1. {main}() /Users/karin2/Local Sites/portforio/app/public/wp-cron.php:0
+[05-May-2020 22:18:56 UTC] PHP   2. do_action_ref_array() /Users/karin2/Local Sites/portforio/app/public/wp-cron.php:138
+[05-May-2020 22:18:56 UTC] PHP   3. WP_Hook->do_action() /Users/karin2/Local Sites/portforio/app/public/wp-includes/plugin.php:544
+[05-May-2020 22:18:56 UTC] PHP   4. WP_Hook->apply_filters() /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-hook.php:311
+[05-May-2020 22:18:56 UTC] PHP   5. wp_version_check() /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-hook.php:287
+[05-May-2020 22:18:56 UTC] PHP   6. do_action() /Users/karin2/Local Sites/portforio/app/public/wp-includes/update.php:242
+[05-May-2020 22:18:56 UTC] PHP   7. WP_Hook->do_action() /Users/karin2/Local Sites/portforio/app/public/wp-includes/plugin.php:478
+[05-May-2020 22:18:56 UTC] PHP   8. WP_Hook->apply_filters() /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-hook.php:311
+[05-May-2020 22:18:56 UTC] PHP   9. wp_maybe_auto_update() /Users/karin2/Local Sites/portforio/app/public/wp-includes/class-wp-hook.php:287
+[05-May-2020 22:18:56 UTC] PHP  10. WP_Automatic_Updater->run() /Users/karin2/Local Sites/portforio/app/public/wp-includes/update.php:611
+[05-May-2020 22:18:56 UTC] PHP  11. wp_update_themes() /Users/karin2/Local Sites/portforio/app/public/wp-admin/includes/class-wp-automatic-updater.php:430
+[05-May-2020 22:18:56 UTC] PHP  12. trigger_error() /Users/karin2/Local Sites/portforio/app/public/wp-includes/update.php:578
+[06-May-2020 01:47:12 UTC] PHP Fatal error:  Uncaught Error: Class 'custom_walker_nav_menu' not found in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/header.php:20
+Stack trace:
+#0 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php(723): require_once()
+#1 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template.php(672): load_template('/Users/karin2/L...', true)
+#2 /Users/karin2/Local Sites/portforio/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/home.php(7): get_header()
+#4 /Users/karin2/Local Sites/portforio/app/public/wp-includes/template-loader.php(106): include('/Users/karin2/L...')
+#5 /Users/karin2/Local Sites/portforio/app/public/wp-blog-header.php(19): require_once('/Users/karin2/L...')
+#6 /Users/karin2/Local Sites/portforio/app/public/index.php(17): require('/Users/karin2/L...')
+#7 {main}
+  thrown in /Users/karin2/Local Sites/portforio/app/public/wp-content/themes/portforio/header.php on line 20
+[09-May-2020 11:42:40 UTC] PHP Warning:  Use of undefined constant ‘RELOCATE’ - assumed '‘RELOCATE’' (this will throw an Error in a future version of PHP) in /Users/karin2/Local Sites/portforio/app/public/wp-config.php on line 68
+[09-May-2020 11:42:40 UTC] PHP Stack trace:
+[09-May-2020 11:42:40 UTC] PHP   1. {main}() /Users/karin2/Local Sites/portforio/app/public/wp-login.php:0
+[09-May-2020 11:42:40 UTC] PHP   2. require() /Users/karin2/Local Sites/portforio/app/public/wp-login.php:12
+[09-May-2020 11:42:40 UTC] PHP   3. require_once() /Users/karin2/Local Sites/portforio/app/public/wp-load.php:37
+[09-May-2020 11:43:11 UTC] PHP Warning:  Use of undefined constant ‘RELOCATE’ - assumed '‘RELOCATE’' (this will throw an Error in a future version of PHP) in /Users/karin2/Local Sites/portforio/app/public/wp-config.php on line 68
+[09-May-2020 11:43:11 UTC] PHP Stack trace:
+[09-May-2020 11:43:11 UTC] PHP   1. {main}() /Users/karin2/Local Sites/portforio/app/public/wp-login.php:0
+[09-May-2020 11:43:11 UTC] PHP   2. require() /Users/karin2/Local Sites/portforio/app/public/wp-login.php:12
+[09-May-2020 11:43:11 UTC] PHP   3. require_once() /Users/karin2/Local Sites/portforio/app/public/wp-load.php:37
