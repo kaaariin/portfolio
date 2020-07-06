@@ -765,6 +765,10 @@ body .introduction__container p {
   margin: 10px 0;
 }
 
+body .introduction__container li {
+  font-size: 1rem;
+}
+
 body .introduction__container .introduction__item {
   text-align: left;
 }
@@ -772,11 +776,10 @@ body .introduction__container .introduction__item {
 body .introduction__container .introduction__item .introduction__item__title {
   font-size: 1.5rem;
   text-align: left;
-  margin: 0;
   position: relative;
-  margin: 10px 0;
+  margin: 30px 0 10px;
   background: linear-gradient(transparent 50%, rgba(255, 51, 51, 0.4) 50%);
-  display: inline;
+  display: inline-block;
 }
 
 body .introduction__container .introduction__item .introduction__item__title-sub {
