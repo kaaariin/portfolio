@@ -45,6 +45,15 @@
 
     <div id="output" class="contents">
         <h1 class="title output__title">Output</h1>
+        <div class="output__git">
+        一部、githubにアップしています！！
+        <div class="sns ">
+                <a href="https://github.com/kaaariin"><i class="fab fa-github-square"></i></a>
+
+            </div>
+
+        </div>
+
         <div class="block output__block">
         <?php
             $args =  array(

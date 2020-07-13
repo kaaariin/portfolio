@@ -1163,6 +1163,10 @@ body #output {
   }
 }
 
+body #output .output__git {
+  font-size: 1rem;
+}
+
 body #output .output__pickup {
   font-size: 2rem;
   color: #FF3333;

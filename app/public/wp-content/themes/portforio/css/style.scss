@@ -1108,6 +1108,9 @@ overflow: hidden;
     @include mq('tab') {
         padding-bottom: 4rem;
     }
+    .output__git {
+        font-size: 1rem;
+    }
     .output__pickup {
         font-size: 2rem;
         color: $pink;
@@ -1117,9 +1120,6 @@ overflow: hidden;
         }
     }
     
-    .output__title {
-        
-    }
     .output__block {
         margin-top: 2rem;
         margin-bottom: 5rem;

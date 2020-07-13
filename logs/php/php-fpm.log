@@ -35,3 +35,13 @@
 [06-Jun-2020 22:49:43] ERROR: FPM initialization failed
 [06-Jun-2020 22:49:44] ERROR: Another FPM instance seems to already listen on /Users/karin2/Library/Application Support/Local/run/3llR7IBE1/php/php-fpm.socket
 [06-Jun-2020 22:49:44] ERROR: FPM initialization failed
+[07-Jul-2020 00:40:59] ERROR: Another FPM instance seems to already listen on /Users/karin2/Library/Application Support/Local/run/3llR7IBE1/php/php-fpm.socket
+[07-Jul-2020 00:40:59] ERROR: FPM initialization failed
+[07-Jul-2020 00:40:59] ERROR: Another FPM instance seems to already listen on /Users/karin2/Library/Application Support/Local/run/3llR7IBE1/php/php-fpm.socket
+[07-Jul-2020 00:40:59] ERROR: FPM initialization failed
+[07-Jul-2020 00:41:00] ERROR: Another FPM instance seems to already listen on /Users/karin2/Library/Application Support/Local/run/3llR7IBE1/php/php-fpm.socket
+[07-Jul-2020 00:41:00] ERROR: FPM initialization failed
+[07-Jul-2020 00:41:01] ERROR: Another FPM instance seems to already listen on /Users/karin2/Library/Application Support/Local/run/3llR7IBE1/php/php-fpm.socket
+[07-Jul-2020 00:41:01] ERROR: FPM initialization failed
+[09-Jul-2020 21:30:08] NOTICE: Terminating ...
+[09-Jul-2020 21:30:08] NOTICE: exiting, bye-bye!
